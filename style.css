@@ -1,0 +1,25 @@
+main {
+    width: 20%;
+    margin: auto;
+    border: solid;
+}
+
+.contaffichage, .contresultat{
+    text-align: right;
+    margin: 10px;
+}
+
+.contchiffre {
+    display: grid;
+}
+
+.ligne {
+    margin: 10px;
+    text-align: right;
+    
+}
+
+button {
+    width: 40px;
+    height: 40px;
+}
