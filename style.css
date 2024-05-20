@@ -1,25 +1,32 @@
-main {
-    width: 20%;
-    margin: auto;
-    border: solid;
-}
+.conteneur {
+    width: 250px;
+    margin: 50px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+  }
 
 .contaffichage, .contresultat{
     text-align: right;
     margin: 10px;
+    font-size: 30px;
 }
 
-.contchiffre {
+.ligne {    
     display: grid;
-}
-
-.ligne {
-    margin: 10px;
-    text-align: right;
-    
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    margin: 5px;
 }
 
 button {
-    width: 40px;
-    height: 40px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: slategrey;
 }
