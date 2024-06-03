@@ -30,3 +30,12 @@ button {
 button:hover {
     background-color: slategrey;
 }
+
+input{
+    width: 100%;
+    padding: 5px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    text-align: right;
+    font-size: 30px;
+}
